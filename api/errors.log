@@ -1,0 +1,45 @@
+[01-Mar-2024 12:46:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function encryptIt() in D:\xampp\htdocs\RMRC-OHPC\api\login.php:26
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\login.php(112): Login(Array)
+#1 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\login.php on line 26
+[01-Mar-2024 12:46:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function encryptIt() in D:\xampp\htdocs\RMRC-OHPC\api\login.php:26
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\login.php(112): Login(Array)
+#1 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\login.php on line 26
+[01-Mar-2024 12:48:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function encryptIt() in D:\xampp\htdocs\RMRC-OHPC\api\login.php:26
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\login.php(112): Login(Array)
+#1 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\login.php on line 26
+[01-Mar-2024 18:42:57 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Rakit\Validation\Validator::validate(): Argument #1 ($inputs) must be of type array, null given, called in D:\xampp\htdocs\RMRC-OHPC\api\login.php on line 25 and defined in D:\xampp\htdocs\RMRC-OHPC\api\vendor\validate\rakit\validation\src\Validator.php:65
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\login.php(25): Rakit\Validation\Validator->validate(NULL, Array)
+#1 D:\xampp\htdocs\RMRC-OHPC\api\login.php(106): Login(NULL)
+#2 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\vendor\validate\rakit\validation\src\Validator.php on line 65
+[01-Mar-2024 18:43:04 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: Wrong number of segments in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php:95
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(25): Firebase\JWT\JWT::decode(NULL, Object(Firebase\JWT\Key))
+#1 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(47): savewelldata(Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php on line 95
+[01-Mar-2024 18:43:09 Asia/Calcutta] PHP Fatal error:  Uncaught UnexpectedValueException: Wrong number of segments in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php:95
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(25): Firebase\JWT\JWT::decode(NULL, Object(Firebase\JWT\Key))
+#1 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(47): savewelldata(Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php on line 95
+[01-Mar-2024 18:44:32 Asia/Calcutta] PHP Fatal error:  Uncaught Firebase\JWT\SignatureInvalidException: Signature verification failed in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php:126
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(25): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', Object(Firebase\JWT\Key))
+#1 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(47): savewelldata(Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php on line 126
+[01-Mar-2024 18:45:24 Asia/Calcutta] PHP Fatal error:  Uncaught Firebase\JWT\SignatureInvalidException: Signature verification failed in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php:126
+Stack trace:
+#0 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(25): Firebase\JWT\JWT::decode('eyJhbGciOiJIUzI...', Object(Firebase\JWT\Key))
+#1 D:\xampp\htdocs\RMRC-OHPC\api\api_user_info.php(47): savewelldata(Array)
+#2 {main}
+  thrown in D:\xampp\htdocs\RMRC-OHPC\api\vendor\jwt\firebase\php-jwt\src\JWT.php on line 126

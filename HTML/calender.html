@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>ICMR-Regional Medical Research Centre, Bhubaneswar</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+	<link rel="stylesheet"  href="assets/plugins/select2/css/select2.min.css" />
+	<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" href="assets/css/feather.css">
+	<link rel="stylesheet" href="assets/css/style.css">	
+	<link rel="stylesheet" href="assets/css/custom.css">
+	<style>		
+		.w-70{ width: 70% !important;}
+		.w-10{ width: 10% !important;}
+	</style>
+	
+</head>
+<body>
+<div class="main-wrapper">
+	<div class="header">
+		<div class="header-left">
+			<a href="index.html" class="logo"><img src="assets/img/rmrc-logo.png" alt="Logo"></a>
+			<a href="index.html" class="logo logo-small"><img src="assets/img/logo-small.png" alt="Logo" width="30" height="30"></a>
+			<a href="javascript:void(0);" id="toggle_btn"><i class="feather-chevrons-left"></i></a>
+		</div>
+		<div class="top-nav-search">
+			<div class="main">
+				<h4 class="logotext">ICMR-GCSRMRC (One Health Peri-urban Cohort)</h4>
+			</div>
+		</div>
+		<a class="mobile_btn" id="mobile_btn"><i class="fas fa-bars"></i></a>
+		<ul class="nav nav-tabs user-menu">
+			<li class="nav-item dropdown noti-nav">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Quick Links</a>
+				<div class="dropdown-menu notifications">					
+					<div class="noti-content">
+						<ul class="notification-list">
+							<li class="notification-message">
+								<a href="#">Link One</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Two</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Three</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Four</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Five</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown main-drop">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+					<span class="user-img"><img src="assets/img/patient_profiles/avatar-01.jpg" alt=""><span class="status online"></span></span>
+				</a>
+				<div class="dropdown-menu">
+					<div class="user-header">
+						<div class="avatar avatar-sm">
+							<img src="assets/img/patient_profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+						</div>
+						<div class="user-text">
+							<h6>Kamal Khan</h6>
+							<p class="text-muted mb-0">Administrator</p>
+						</div>
+					</div>				
+					<a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+				</div>
+			</li>
+		</ul>
+	</div>	
+
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="sidebar-menu">
+				<ul>
+					<li><a href="index.html"><i class="feather-grid"></i> <span>Dashboard</span></a></li>
+					<li class="active"><a href="datatable.html"><i class="feather-align-justify"></i> <span>Datatable</span></a></li>
+					<li><a href="table.html"><i class="feather-align-justify"></i> <span>Table</span></a></li>
+					<li><a href="forms.html"><i class="feather-file-text"></i> <span>Forms</span></a></li>	
+					<li><a href="components.html"><i class="feather-file-text"></i> <span>Components</span></a></li>
+				</ul>	
+			</div>	
+		</div>	
+	</div>
+
+	<div class="page-wrapper">
+		<div class="content container-fluid w-100">
+			<div class="page-header">
+				<div class="row">
+					<div class="col">
+						<h4 class="card-title">Tables</h4>
+					</div>
+					<div class="col-auto">
+						<div class="bookingrange btn btn-white btn-sm" style="line-height: 18px; color: #131523; margin-left: 15px;">
+						<div class="cal-ico">
+							<i class="feather-calendar mr-1"></i>
+							<span>Select Date</span>
+						</div>
+						<div class="ico">
+							<i class="fas fa-chevron-left" style="padding: 10px 8px;"></i>
+							<i class="fas fa-chevron-right" style="padding: 10px 8px;"></i>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>			
+			<div class="row">
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<div class="dash-widget-header">
+								<span class="dash-widget-icon bg-primary">
+									<i class="feather-user-plus"></i>
+								</span>
+								<div class="dash-count">
+									<h5 class="dash-title">Cluster</h5>
+									<div class="dash-counts">
+									<p>4505</p>
+									</div>
+								</div>
+							</div>
+							<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<div class="dash-widget-header">
+								<span class="dash-widget-icon bg-primary">
+									<i class="feather-user-plus"></i>
+								</span>
+								<div class="dash-count">
+									<h5 class="dash-title">Household</h5>
+									<div class="dash-counts">
+									<p>4505</p>
+									</div>
+								</div>
+							</div>
+							<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<div class="dash-widget-header">
+								<span class="dash-widget-icon bg-primary">
+									<i class="feather-user-plus"></i>
+								</span>
+								<div class="dash-count">
+									<h5 class="dash-title">Individual</h5>
+									<div class="dash-counts">
+									<p>4505</p>
+									</div>
+								</div>
+							</div>
+							<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<div class="dash-widget-header">
+								<span class="dash-widget-icon bg-primary">
+								<i class="feather-user-plus"></i>
+								</span>
+								<div class="dash-count">
+									<h5 class="dash-title">Biometrics</h5>
+									<div class="dash-counts">
+									<p>4505</p>
+									</div>
+								</div>
+							</div>
+							<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-body">
+							<div class="dash-widget-header">
+								<span class="dash-widget-icon bg-primary">
+									<i class="feather-user-plus"></i>
+								</span>
+								<div class="dash-count">
+									<h5 class="dash-title">Tribe</h5>
+									<div class="dash-counts">
+									<p>4505</p>
+									</div>
+								</div>
+							</div>
+							<p class="trade-level mb-0"><span class="text-danger me-1"><i class="fas fa-caret-down me-1"></i>1.15%</span> last week</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="card">
+                        <div class="card-header">
+                            <div class="row">
+                                <div class="col-auto w-70">
+                                    <h6>Household</h6>
+                                </div>
+                                <div class="col-auto w-10">
+                                    <h6>Don’t Know</h6>
+                                </div>
+                                <div class="col-auto w-10">
+                                    <h6>No Response</h6>
+                                </div>
+                                <div class="col-auto w-10">
+                                    <h6>Out of</h6>
+                                </div>
+                            </div>  
+                        </div>
+					    <div class="card-body">
+							<div class="row ">
+                                    <div class="col-auto  w-70">
+                                        <label>1. If yes to any of the above How did the injury happen? Was it an accident,  did someone else do this to the injured person or did the injured person do this to him/herself?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>1</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>804</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>818</label>
+                                    </div>
+                             </div>
+                             <div class="row">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did the injured person need to be admitted in hospital for at least one night?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>0</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>803</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>818</label>
+                                    </div>
+                              </div>
+                              <h6>Age 0-4years old</h6>
+                              <div class="row">
+                                    <div class="col-auto  w-70">
+                                        <label>1. Within the last six months, was (NAME) given a vitamin A dose like (this/any of these)? SHOW COMMON AMPOULES/ CAPSULES/SYRUPS</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>11</label>
+                                    </div>
+
+                                    <div class="col-auto w-10">
+                                        <label>73</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                              </div>
+							  
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+							<div class="row form-group">
+                                    <div class="col-auto  w-70">
+                                        <label>2. Did (NAME) ever receive any vaccinations to prevent (him/her) from getting diseases, including vaccinations received in a Pulse Polio campaign?</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>8</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>70</label>
+                                    </div>
+                                    <div class="col-auto w-10">
+                                        <label>191</label>
+                                    </div>
+                                </div>
+						</div>
+
+                    </div>
+			</div>			
+		</div>
+	</div>	
+</div>	
+	
+	
+
+	
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatables/datatables.min.js"></script>
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.select_one').select2();
+	});
+	
+</script>
+</body>
+</html>

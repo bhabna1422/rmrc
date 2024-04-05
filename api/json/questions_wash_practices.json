@@ -1,0 +1,509 @@
+[
+	{
+        "sid": "1",
+        "section": "Section 1",
+        "secheading": "Drinking water",
+        "questions": [
+        	{
+                "id": "1",
+                "label": "What is the main source of drinking water for members of your household?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Piped water/Public tap/standpipe"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Tube well/bore well/Dug well"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Spring water/Rain water"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Tanker/Cart with small tank"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Surface water (river/dam/lake/ponds/stream/canal/irrigation channel)"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Bottled water/pouch water"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Others"
+                    }
+                ],
+				"dependField":["2"],
+				"onDepend":"7"
+            },
+            {
+                "id": "2",
+                "label": "If Others, please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "3",
+                "label": "Do you do anything to make the water safer for drinking?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+				"dependField":["4"],
+				"onDepend":"1"
+            },
+            {
+                "id": "4",
+                "label": "If 'Yes', what do you usually do to make it safer to drink?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Boil it"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Use alum"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Add chlorine / bleaching powder"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Strain through a cloth"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Use water filter (ceramic/sand/composite/other)"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Use electronic water purifier"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Others"
+                    }
+                ],
+				"dependField":["5"],
+				"onDepend":"7"
+            },
+            {
+                "id": "5",
+                "label": "If 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "6",
+                "label": "What is your main source of cooking fuel?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Liquefied Petroleum Gas (LPG)/Biogas/ Electric"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Kerosene/Charcoal/Lignite/Coal"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Crop residue/Wood/Shrub/Dung cake"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Do not cook at home"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Others"
+                    }
+                ],
+				"dependField":["7"],
+				"onDepend":"5"
+            },
+            {
+                "id": "7",
+                "label": "If 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "7.1",
+                "label": "Are you involved in firewood collection?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "7.2",
+                "label": "Do you have scrub vegetation around your house or presence of wood piles around the house?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "8",
+                "label": "Is the cooking usually done in the house, in a separate building, or outdoors?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "In the house"
+                    },
+                    {
+                        "id": "2",
+                        "name": "In a separate building"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Outdoors"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Others"
+                    }
+                ],
+				"dependField":["9"],
+				"onDepend":"4"
+            },
+            {
+                "id": "9",
+                "label": "If 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "10",
+                "label": "Do have any kitchen garden plots on your premises?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "11",
+                "label": "Where do you go for toilet, regularly?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "At own house"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Shared/Community toilet"
+                    },
+                    {
+                        "id": "3",
+                        "name": "No facility, use open space or field"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "11.1",
+                "label": "Type of toilet that you use daily:",
+                "value": "",
+                "qType": 3,
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Flush/pour flush toilet"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Pit latrine/Twin pit/composting toilet"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Any other"
+                    }
+                ],
+                "dependField":["12"],
+				"onDepend":"3"
+            },
+            {
+                "id": "12",
+                "label": "If 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "13",
+                "label": "Is there sufficient water supply, where you go for toilet?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "14",
+                "label": "Is this water source available for 24 hours?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "15",
+                "label": "Every day, when do you wash your hand?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "After tooth brushing/cleaning mouth in the morning"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Before taking food"
+                    },
+                    {
+                        "id": "3",
+                        "name": "After toilet"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Before cooking"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Before/after handling babies/children"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Before/after handling cattle or poultry birds"
+                    },
+                    {
+                        "id": "7",
+                        "name": "After coming back from work/outside"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Any other time"
+                    }
+                ],
+				"dependField":["16"],
+				"onDepend":"8"
+            },
+            {
+                "id": "16",
+                "label": "If any other time, please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "17",
+                "label": "How do you generally wash your hand?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Only water"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Soap with water"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Alcohol based sanitiser"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Other chemical/antiseptic agents (like Savlon or Dettol liquid)"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Ash/mud or similar rough materials"
+                    },
+                    {
+                        "id": "6",
+                        "name": "No need to wash"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Any other material"
+                    }
+                ],
+				"dependField":["18"],
+				"onDepend":"7"
+            },
+            {
+                "id": "18",
+                "label": "If any other material used for hand washing, please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "19",
+                "label": "Do you have own separate material (soap/any powder/ash) for hand washing?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "20",
+                "label": "Do you change your cloths after coming from farming or cattle shed or respective occupation?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "21",
+                "label": "Type of drainage system at house",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Open/Surface drainage: ditch, earthen passage"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Open/Surface drainage: cemented drain falling into soak-pit"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Piped sub-surface drainage"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Downspout and Gutter System"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Any other"
+                    }
+                ],
+				"dependField":["22"],
+				"onDepend":"5"
+            },
+            {
+                "id": "22",
+                "label": "If any other, please specify",
+                "value": "",
+                "qType": "1"
+            }
+        ]
+    },
+    {
+        "sid": "2",
+        "section": "Section 2",
+        "secheading": "Identification of the respondent",
+        "questions": [
+        	{
+                "id": "23",
+                "label": "Name of the respondent",
+                "value": "",
+                "qType": "1",
+                "required": true
+            },
+          	{
+                "id": "24",
+                "label": "Sample ID",
+                "value": "",
+                "qType": "1",
+                "required": true
+            }
+        ]
+    }
+]

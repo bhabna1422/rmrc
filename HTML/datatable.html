@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>ICMR-Regional Medical Research Centre, Bhubaneswar</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+	<link rel="stylesheet"  href="assets/plugins/select2/css/select2.min.css" />
+	<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" href="assets/css/feather.css">
+	<link rel="stylesheet" href="assets/css/style.css">	
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<div class="main-wrapper">
+	<div class="header">
+		<div class="header-left">
+			<a href="index.html" class="logo"><img src="assets/img/rmrc-logo.png" alt="Logo"></a>
+			<a href="index.html" class="logo logo-small"><img src="assets/img/logo-small.png" alt="Logo" width="30" height="30"></a>
+			<a href="javascript:void(0);" id="toggle_btn"><i class="feather-chevrons-left"></i></a>
+		</div>
+		<div class="top-nav-search">
+			<div class="main">
+				<h4 class="logotext">ICMR-GCSRMRC (One Health Peri-urban Cohort)</h4>
+			</div>
+		</div>
+		<a class="mobile_btn" id="mobile_btn"><i class="fas fa-bars"></i></a>
+		<ul class="nav nav-tabs user-menu">
+			<li class="nav-item dropdown noti-nav">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Quick Links</a>
+				<div class="dropdown-menu notifications">					
+					<div class="noti-content">
+						<ul class="notification-list">
+							<li class="notification-message">
+								<a href="#">Link One</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Two</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Three</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Four</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Five</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown main-drop">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+					<span class="user-img"><img src="assets/img/patient_profiles/avatar-01.jpg" alt=""><span class="status online"></span></span>
+				</a>
+				<div class="dropdown-menu">
+					<div class="user-header">
+						<div class="avatar avatar-sm">
+							<img src="assets/img/patient_profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+						</div>
+						<div class="user-text">
+							<h6>Kamal Khan</h6>
+							<p class="text-muted mb-0">Administrator</p>
+						</div>
+					</div>				
+					<a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+				</div>
+			</li>
+		</ul>
+	</div>	
+
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="sidebar-menu">
+				<ul>
+					<li><a href="index.html"><i class="feather-grid"></i> <span>Dashboard</span></a></li>
+					<li class="active"><a href="datatable.html"><i class="feather-align-justify"></i> <span>Datatable</span></a></li>
+					<li><a href="table.html"><i class="feather-align-justify"></i> <span>Table</span></a></li>
+					<li><a href="forms.html"><i class="feather-file-text"></i> <span>Forms</span></a></li>	
+					<li><a href="components.html"><i class="feather-file-text"></i> <span>Components</span></a></li>
+				</ul>	
+			</div>	
+		</div>	
+	</div>
+
+	<div class="page-wrapper">
+		<div class="content container-fluid">
+			<div class="page-header">
+				<div class="row">
+					<div class="col">
+						<h4 class="card-title">Tables</h4>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">					
+					<div class="card">
+						<div class="card-header">							
+							<div class="app-listing mb-0">	
+								<div class="col"><h4 class="card-title">Datatable</h4></div>					
+								<div class="multipleSelection">
+									<div class="selectBox">
+										<p class="mb-0"><i class="feather-filter me-1"></i> Filter</p>
+										<span class="down-icon"><i class="feather-chevron-down"></i></span>
+									</div>
+									<div id="checkBoxes">
+										<form action="appointment-report.html">
+											<div class="form-custom">
+												<input type="text" class="form-control bg-grey" placeholder="Search by Patient">
+												<i class="fas fa-search"></i>
+											</div>
+											<div class="form-custom">
+												<input type="text" class="form-control bg-grey" placeholder="Search by Doctor">
+												<i class="fas fa-search"></i>
+											</div>
+											<p class="lab-title">Consultation Type</p>
+											<label class="custom_check w-100">
+												<input type="checkbox" name="year">
+												<span class="checkmark"></span> Video Call
+											</label>
+											<label class="custom_check w-100">
+												<input type="checkbox" name="year">
+												<span class="checkmark"></span> Audio Call
+											</label>
+											<label class="custom_check w-100">
+												<input type="checkbox" name="year">
+												<span class="checkmark"></span> Chat
+											</label>
+											<button type="submit" class="btn w-100 btn-primary">Apply</button>
+										</form>
+									</div>
+								</div>
+								<div class="custom-list">							
+									<div class="SortBy">
+										<div class="selectBoxes order-by">
+											<p class="mb-0"><img src="assets/img/icon/sort.png" class="me-2" alt="icon"> Order by </p>
+											<span class="down-icon"><i class="feather-chevron-down"></i></span>
+										</div>
+										<div id="checkBox">
+											<form action="appointment-report.html">
+												<p class="lab-title">Order By </p>
+												<label class="custom_radio w-100">
+													<input type="radio" name="order">
+													<span class="checkmark"></span> ID
+												</label>
+												<label class="custom_radio w-100">
+													<input type="radio" name="order">
+													<span class="checkmark"></span> Amount
+												</label>
+												<label class="custom_radio w-100">
+													<input type="radio" name="order">
+													<span class="checkmark"></span> Date
+												</label>
+												<p class="lab-title">Sort By</p>
+												<label class="custom_radio w-100">
+													<input type="radio" name="sort">
+													<span class="checkmark"></span> Ascending
+												</label>
+												<label class="custom_radio w-100">
+													<input type="radio" name="sort">
+													<span class="checkmark"></span> Descending
+												</label>
+												<button type="submit" class="btn w-100 btn-primary">Apply</button>
+											</form>
+										</div>
+									</div>
+								</div>	
+							</div>
+						</div>
+						<div class="card-body p-0">
+							<div class="table-responsive">
+								<table class="datatable table table-borderless hover-table" id="data-tables">
+									<thead class="thead-light">
+										<tr>
+											<th>ID</th>
+											<th>Patient</th>
+											<th>Doctor</th>
+											<th>Date & Time</th>
+											<th>Consultation type</th>	
+											<th>Phone</th>
+											<th>Gender</th>
+											<th>source</th>
+											<th>Priority</th>																					
+											<th>Status</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>#4546</td>
+											<td>
+												<h2 class="table-avatar">
+													<a href="#null"><img class="avatar avatar-img" src="assets/img/patient_profiles/avatar-01.jpg" alt="User Image"></a>
+													<a href="#null"><span class="user-name">Bess Twishes</span> <span class="text-muted">Male, 40 Years Old</span></a>
+												</h2>
+											</td>
+											<td>
+												<h2 class="table-avatar">
+													<a href="#null" class="avatar-pos"><img class="avatar avatar-img" src="assets/img/dr_profiles/avatar-03.jpg" alt="User Image"></a>
+													<a href="#null" class="user-name"><span class="text-muted">Dr. Rayan</span> <span class="tab-subtext">Gyanoclogist</span></a>
+												</h2>
+											</td>
+											<td><span class="user-name">26 November 2022 </span><span class="d-block">12/20/2022</span></td>
+											<td class="status">
+												<span>Scheduled Appointment</span>
+												<a href="#" class="d-block text-primary mt-2">
+												<span class="d-flex align-items-center"><i class="feather-video me-2"></i> Video call</span>
+												</a>
+											</td>
+											<td>+91-1234567890</td>
+											<td>Male</td>
+											<td>Friend</td>
+											<td>High</td>
+											<td><span class="badge bg-badge-grey text-danger"><i class="fas fa-circle me-1"></i>Not Paid</span></td>
+										</tr>
+										<tr>
+											<td>#8774</td>
+											<td>
+												<h2 class="table-avatar">
+													<a href="#null"><img class="avatar avatar-img" src="assets/img/patient_profiles/avatar-02.jpg" alt="User Image"></a>
+													<a href="#null"><span class="user-name">Bess Twishes</span> <span class="text-muted">Female,30 Years Old</span></a>
+												</h2>
+											</td>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos" href="#null"><img class="avatar avatar-img" src="assets/img/dr_profiles/avatar-04.jpg" alt="User Image"></a>
+													<a href="#null" class="user-name"><span class="text-muted">Dr. Monroe</span> <span class="tab-subtext">Hair Specialities</span></a>
+												</h2>
+											</td>
+											<td><span class="user-name">26 November 2022 </span><span class="d-block">12/20/2022</span></td>
+											<td class="status">
+												<span>Scheduled Appointment</span>
+												<a href="#" class="d-block text-primary mt-2">
+												<span class="d-flex align-items-center"><i class="feather-video me-2"></i> Video call</span>
+												</a>
+											</td>
+											<td>+91-1234567890</td>
+											<td>Female</td>
+											<td>Friend</td>
+											<td>Low</td>
+											<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Paid</span></td>
+										</tr>
+										<tr>
+											<td>#4546</td>
+											<td>
+												<h2 class="table-avatar">
+													<a href="#null"><img class="avatar avatar-img" src="assets/img/patient_profiles/avatar-03.jpg" alt="User Image"></a>
+													<a href="#null"><span class="user-name">Abdul Aziz Lazis</span> <span class="text-muted">Male, 25 Years Old</span></a>
+												</h2>
+											</td>
+											<td>
+												<h2 class="table-avatar">
+													<a class="avatar-pos" href="#null"><img class="avatar avatar-img" src="assets/img/dr_profiles/avatar-05.jpg" alt="User Image"></a>
+													<a href="#null" class="user-name"><span class="text-muted">Dr. Lester</span> <span class="tab-subtext">Orthopaedics</span></a>
+												</h2>
+											</td>
+											<td><span class="user-name">26 November 2022 </span><span class="d-block">12/20/2022</span></td>
+											<td class="status">
+												<span>Scheduled Appointment</span>
+												<a href="#" class="d-block text-primary mt-2">
+												<span class="d-flex align-items-center"><i class="feather-video me-2"></i> Video call</span>
+												</a>
+											</td>
+											<td>+91-1234567890</td>
+											<td>Other</td>
+											<td>Telivision</td>
+											<td>Normal</td>
+											<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Paid</span></td>
+										</tr>
+										<tr>
+											<td>#4546</td>
+											<td>
+												<h2 class="table-avatar">
+													<a href="#null"><img class="avatar avatar-img" src="assets/img/patient_profiles/avatar-04.jpg" alt="User Image"></a>
+													<a href="#null"><span class="user-name">Alex Siauw</span> <span class="text-muted">Male, 29 Years Old</span></a>
+												</h2>
+											</td>
+											<td>
+												<h2 class="table-avatar">
+													<a class="empty-user" href="#null"><i class="feather-user"></i> </a>
+													<a href="#null" class="user-name"><span class="text-muted">Dr. Clint</span> <span class="tab-subtext">Neurology</span></a>
+												</h2>
+											</td>
+											<td><span class="user-name">26 November 2022 </span><span class="d-block">12/20/2022</span></td>
+											<td class="status">
+												<span>Scheduled Appointment</span>
+												<a href="#" class="d-block text-primary mt-2">
+												<span class="d-flex align-items-center"><i class="feather-video me-2"></i> Video call</span>
+												</a>
+											</td>
+											<td>+91-1234567890</td>
+											<td>Male</td>
+											<td>Newspaper</td>
+											<td>Very High</td>
+											<td><span class="badge bg-badge-grey text-success"><i class="fas fa-circle me-1"></i> Paid</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="tablepagination" class="dataTables_wrapper"></div>
+		</div>
+		
+		
+	</div>	
+</div>	
+	
+	
+<div class="modal fade contentmodal" id="deleteModal" tabindex="-1" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content doctor-profile">
+			<div class="modal-header border-bottom-0 justify-content-end">
+				<button type="button" class="close-btn" data-bs-dismiss="modal" aria-label="Close"><i class="feather-x-circle"></i></button>
+			</div>
+			<div class="modal-body">
+				<div class="delete-wrap text-center">
+					<form action="patient-list.html">
+						<div class="del-icon"><i class="feather-x-circle"></i></div>
+						<h2>Sure you Want to delete</h2>
+						<p>“Patient”</p>
+						<div class="submit-section">
+							<a href="#" class="btn btn-success me-2">Yes</a>
+							<a href="#" class="btn btn-danger" data-bs-dismiss="modal">No</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatables/datatables.min.js"></script>
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.select_one').select2();
+	});
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,1929 @@
+[
+ 	{
+        "sid": "1",
+        "section": "Section 1",
+        "secheading": "Socio-demographic details",
+        "questions": [
+            {
+                "id": "1",
+                "label": "Age of the respondent (in completed years)",
+                "value": "",
+                "qType": 1,
+                "required": true
+            },
+            {
+                "id": "2",
+                "label": "Birthdate",
+                "value": "",
+                "qType": 3,
+                "options": [],
+                "required": true,
+				"isSubQuestions":true,
+				  "subQuestions":[
+					 {
+						"id":"1",
+						"label":"Date",
+						"value":"",
+						"qType":"6",
+						"required":true
+                        
+					 },
+					 {
+						"id":"2",
+						"label":"Time",
+						"value":"",
+						"qType":"1",
+						"required":true
+                     }
+				]
+            },
+            {
+                "id":"3",
+				"label":"Birth year",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":2024
+            },
+            {
+                "id": "4",
+                "label": "Sex",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Male"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Female"
+                    },
+                    {
+                        "id": "3",
+                        "name": "3rd Gender"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id":"5",
+				"label":"Years of completed schooling",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":2024
+            },
+            {
+                "id": "6",
+                "label": "Highest level of Education",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "No formal education"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Less than Primary school (Standard 1-4)"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Primary school Completed (Standard 5-7)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Middle school Completed (Standard 8- 9)"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Secondary School/Matriculation completed"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Higher Secondary/Intermediate/Senior Secondary completed"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Diploma and certificate holders/Graduate/ Post-graduate/ Professional course/degree"
+                    }
+                ],
+                "required": true
+            },
+              {
+                "id": "7",
+                "label": "Marrital status",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Currently married"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Widowed"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Divorced/Separated/Deserted"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Never married"
+                    }
+                    
+                ],
+                "required": true
+            },
+              {
+                "id": "8",
+                "label": "Ethnicity",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Scheduled caste"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Scheduled tribe"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Other backward class (OBC)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "None of them"
+                    }
+                    
+                ],
+                "required": true
+            },
+             {
+                "id": "9",
+                "label": "Occupation of the respondent",
+                "value": "",
+                "qType": "3",
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Agriculture"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Homemaker"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Retired person"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Student"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Unemployed"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Others"
+                    }
+                ],
+                "onValueOther": "6",
+                "isOtherQuestions": false,
+                "otherQuestions": [
+                    {
+                        "id": "1",
+                        "label": "If 'others' in occupation, please specify",
+                        "value": "",
+                        "qType": "1"
+                    }
+                ],
+                "required": true
+            },
+             {
+                "id": "10",
+                "label": "Type of current dwelling house",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Pucca (permanent material)"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Semi pucca (combination of temporary and permanent material)"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Kutcha (temporary material)"
+                    }
+                ],
+                "required": true
+            },
+             {
+                "id": "11",
+                "label": "Location of the current dwelling house (Observation based)",
+                "value": "",
+                "qType": "3",
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Near main road (concrete or asphalt road)"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Beside pond/lake/canal/any water-body"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Beside drain/drain-water logging"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Others"
+                    }
+                   
+                ],
+                "onValueOther": "4",
+                "isOtherQuestions": false,
+                "otherQuestions": [
+                    {
+                        "id": "1",
+                        "label": "If other in Location of the current dwelling house, specify",
+                        "value": "",
+                        "qType": "1"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id":"12",
+				"label":"Number of Household member (Household size)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":15
+            },
+            {
+                "id":"13",
+				"label":"Number of living rooms",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":100
+            }
+        ]
+    },
+
+    {
+        "sid": "2",
+        "section": "Section 2",
+        "secheading": "Disease Profile",
+        "questions": [
+            {
+                "id": "14",
+                "label": "What are the chronic conditions are you suffering now?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Diabetes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Hypertension"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Arthritis"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Acid Peptic Disease"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Chronic lung disease (Asthma, COPD)"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Chronic cardiac conditions"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Stroke"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Chronic renal diseases"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Blood disorders"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Chronic hepatic disease (including fatty liver)"
+                    },
+                    {
+                        "id": "11",
+                        "name": "Chronic pain (including back ache, pain in the limbs, muscle, joint pains)"
+                    },
+                    {
+                        "id": "12",
+                        "name": "Tuberculosis"
+                    },
+                    {
+                        "id": "13",
+                        "name": "Filariasis"
+                    },
+                     {
+                        "id": "14",
+                        "name": "Visual difficulty"
+                    },
+                    {
+                        "id": "15",
+                        "name": "Hearing impairment"
+                    },
+                    {
+                        "id": "16",
+                        "name": "Cancer"
+                    },
+                    {
+                        "id": "17",
+                        "name": "Dementia"
+                    },
+                    {
+                        "id": "18",
+                        "name": "Epilepsy"
+                    },
+                    {
+                        "id": "19",
+                        "name": "Thyroid disorder"
+                    },
+                    {
+                        "id": "20",
+                        "name": "Sickle cell disorder"
+                    },
+                    {
+                        "id": "21",
+                        "name": "Anxiety"
+                    },
+                    {
+                        "id": "22",
+                        "name": "Disturbed sleep"
+                    },
+                    {
+                        "id": "23",
+                        "name": "Weakness"
+                    },
+                     {
+                        "id": "24",
+                        "name": "Any other chronic conditions"
+                    },
+                    {
+                        "id": "25",
+                        "name": "Not suffering from any chronic disease"
+                    }
+
+                ],
+                "onValueOther": "24",
+                "isOtherQuestions": false,
+                "otherQuestions": [
+                    {
+                        "id": "1",
+                        "label": "If any other chronic condition(s), please specify",
+                        "value": "",
+                        "qType": "1"
+                    }
+                ]
+            },
+            {
+                "id": "15",
+                "label": "Did you suffer from high fever (Fever above 101.5-102° F AND not going below 101° F after taking medicine) in last one year?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+				"dependField":["16","17"],
+				"onDepend":"1"
+            },
+            {
+                "id": "16",
+                "label": "If Yes for suffering from high fever, does this fever had any of the characteristics?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Continuous high fever"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Swinging high fever (Sometimes very high fever, sometimes relatively low)"
+                    }
+                ],
+                "disable":true
+			},
+			{
+                "id": "17",
+                "label": "If Yes for high fever, was there night-time sweating?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "disable":true
+			},
+	
+			{
+                "id": "18",
+                "label": "Classic Escher",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "19",
+                "label": "Classic Escher",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "20",
+                "label": "Conjunctival congestion",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "21",
+                "label": "Myalgia (Muscle pain) of only Calf muscle",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id":"22",
+				"label":"Duration of Constant high fever (in days)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":500
+            },
+            {
+                "id":"23",
+				"label":"Duration of nighttime sweat (in days)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":500
+            },
+            {
+                "id":"24",
+				"label":"Duration of swinging high fever (in days)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":500
+            },
+            {
+                "id":"25",
+				"label":"Duration of conjunctival congestion (in days)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":500
+            },
+            {
+                "id":"26",
+				"label":"Duration of muscle pain of only calf muscle (in days)",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":500
+            },
+            {
+                "id": "27",
+                "label": "Did you have to visit a doctor at a hospital / nursing home / private clinic for these symptom(s)?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id":"28",
+				"label":"How many times did you have to visit the health facility (OPD visits only) before your symptoms were subsided?",
+				"value":"",
+				"qType":"1",
+				"isNumaric": true,
+				"required":true,
+                "min":0,
+                "max":100
+            },
+              {
+                "id": "29",
+                "label": "Were you admitted to any health facility (hospital/nursing home) for those symptoms?",
+                "value": "",
+                "qType": "3",
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true,
+				"dependField":["30","31","32"],
+				"onDepend":"1"
+            },
+            {
+                "id": "30",
+                "label": "If Yes, for how many days did you have to admit?",
+                "value": "",
+                "qType": "1",
+				"disable":true,
+                "required": true,
+                "isNumaric":true,
+                "min":1,
+                "max":100
+            },
+            {
+				"id":"31",
+				"label":"Date of admission",
+				"value":"",
+				"qType":"6",
+				"required":true
+                        
+		    },
+		    {
+				"id":"32",
+				"label":"Date of discharge",
+				"value":"",
+				"qType":"6",
+				"required":true
+                        
+		    },
+		    {
+                "id": "33",
+                "label": "Do you know, if you were infected/diagnosed with Brucellosis?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Don't know"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "34",
+                "label": "Do you know, if you were infected/diagnosed with Leptospirosis?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Don't know"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "35",
+                "label": "Do you know, if you were infected/diagnosed with Scrub Typhus?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Don't know"
+                    }
+                ],
+                "required": true
+            },
+            {
+	            "id": "36",
+	            "label": "What do you think, could be the source of this disease?",
+	            "value": "",
+	            "qType": "1",
+	            "required": true
+            },
+            {
+                "id": "37",
+                "label": "Have you heard about zoonotic disease (transmission of disease from animal to human)?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            }
+        ]
+    },
+
+    {
+        "sid": "3",
+        "section": "Section 3",
+        "secheading": "Food Habit",
+        "questions": [
+        	 {
+                "id": "38",
+                "label": "Do you follow any particular diet or only eat certain type of food?",
+                "value": "",
+                "qType": "3",
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Vegetarian"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Vegetarian + only takes eggs"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Non-vegetarian (takes eggs, all kind of animal meat, fish etc.)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Others"
+                    }
+                ],
+                "onValueOther": "4",
+                "isOtherQuestions": false,
+                "otherQuestions": [
+                    {
+                        "id": "1",
+                        "label": "If 'Others', please specify",
+                        "value": "",
+                        "qType": "1"
+                    }
+                ],
+                "required": true
+            },
+             {
+                "id": "39",
+                "label": "Do you have the practice of eating/taking any of the below?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Unpasteurized milk or dairy products or Coffee/tea with unpasteurized milk"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Uncooked/less cooked seafood or fish"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Canteen (outside home)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Raw vegetables"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Cooked/roast/smoked meat or sausage"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Uncooked/ less cooked meat (kasha mangsha)"
+                    },
+                    {
+                        "id": "7",
+                        "name": "None of the above"
+                    }
+                ]
+            },
+             {
+                "id": "40",
+                "label": "Did you eat any foods from any of the following in the 30 DAYS before you started to feel ill?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Unpasteurized milk or dairy products or Coffee/tea with unpasteurized milk"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Uncooked/less cooked seafood or fish"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Canteen (outside home)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Raw vegetables"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Cooked/roast/smoked meat or sausage"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Uncooked/ less cooked meat (kasha mangsha)"
+                    },
+                    {
+                        "id": "7",
+                        "name": "None of the above"
+                    }
+                ]
+            },
+            {
+                "id": "41",
+                "label": "Do you preserve uncooked meat?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+				"dependField":["42","43","44"],
+				"onDepend":"1"
+            },
+             {
+                "id": "42",
+                "label": "If you preserve meat, what process do you follow to preserve uncooked meat?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Refrigeration"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Keep under water"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Keep in salt"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Dried"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Any traditional method"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Any other"
+                    }
+                ],
+                "onValueOther": "6",
+                "isOtherQuestions": false,
+                "otherQuestions": [
+                    {
+                        "id": "1",
+                        "label": "Please specify, if opted for Any other, for preserving uncooked meat",
+                        "value": "",
+                        "qType": "1"
+                    }
+                ]
+            },
+            {
+                "id": "43",
+                "label": "How long do you keep/preserve loose meat products after purchasing from a butcher or butcher/deli counter at a supermarket (in hours)?",
+                "value": "",
+                "qType": "1",
+				"disable":true,
+                "required": true,
+                "isNumaric":true,
+                "min":0,
+                "max":24
+            },
+            {
+                "id": "44",
+                "label": "How long do you keep/preserve loose meat products after purchasing from a butcher or butcher/deli counter at a supermarket (in days)?",
+                "value": "",
+                "qType": "1",
+				"disable":true,
+                "required": true,
+                "isNumaric":true,
+                "min":0,
+                "max":365
+            },
+            {
+                "id": "45",
+                "label": "Are you involved in drinking animal urine?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            }
+        ]
+    },
+    {
+        "sid": "4",
+        "section": "Section 4",
+        "secheading": "Animal interaction",
+        "questions": [
+        	  {
+                "id": "46",
+                "label": "Does your household own any cultivated land or non-cultivated land?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Only cultivated land"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Only non-cultivated land (barren or grazing field)"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Both cultivated and non-cultivated land (barren or grazing field)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Sharecropper (Bhaga chasi)"
+                    },
+                    {
+                        "id": "5",
+                        "name": "None"
+                    }
+                ]
+            },
+            {
+                "id": "47",
+                "label": "Does your household own any livestock?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+				"dependField":["48","49","50","51","52","53","55","57","58","59","60","61","62","63","65","66","67"],
+				"onDepend":"1"
+            },
+             {
+                "id": "48",
+                "label": "What type of livestock do you have?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Cows, bulls, buffaloes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Horses, donkeys or mules"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Goats or sheep"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Pigs"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Chickens, ducks or any other poultry birds"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Any pet animals"
+                    }
+                ]
+            },
+            {
+		  		"id":"49",
+		      	"label": "Photo of the livestock (cows, bulls, buffaloes, horses, donkeys, mules, goats, sheep, pigs)",
+		      	"value":"",
+		      	"qType":"7",
+				"files":[],
+		      	"options": [],
+		      	"required": false
+  			},
+  			{
+		  		"id":"50",
+		      	"label": "Photo of the livestock (poultry bird, pet bird: pegion, parrot etc)",
+		      	"value":"",
+		      	"qType":"7",
+				"files":[],
+		      	"options": [],
+		      	"required": false
+  			},
+  			{
+		  		"id":"51",
+		      	"label": "Photo of the livestock (pet animals: dog, cat)",
+		      	"value":"",
+		      	"qType":"7",
+				"files":[],
+		      	"options": [],
+		      	"required": false
+  			},
+  			{
+		  		"id": "52",
+                "label": "How long (in completed years) do you have those animals at your home?",
+                "value": "",
+                "qType": "1",
+				"disable":true,
+                "required": true,
+                "isNumaric":true,
+                "min":0,
+                "max":100
+  			},
+  			{
+		  		"id": "53",
+                "label": "How long (in completed months) do you have those animals at your home?",
+                "value": "",
+                "qType": "1",
+				"disable":true,
+                "required": true,
+                "isNumaric":true,
+                "min":0,
+                "max":12
+  			},
+  			{
+                "id": "54",
+                "label": "Who takes the animals for grazing?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Self"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Any other member of the household"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Cowboy or shepherd or any daily labour (any other person who does not live in the house; but receives money for taking the cattle for grazing)"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Food is arranged at home only"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Anyone other than above"
+                    }
+                ],
+				"dependField":["55"],
+				"onDepend":"5"
+            },
+            {
+                "id": "55",
+                "label": "Please specify, if opted for 'others'",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "56",
+                "label": "Where do you take the animals for grazing?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Grazing/non-cultivated land (barren or grazing field)"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Cultivating land, when there is no cultivation"
+                    },
+                    {
+                        "id": "3",
+                        "name": "To the forest area"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Other places"
+                    }
+                ],
+				"dependField":["57"],
+				"onDepend":"4"
+            },
+            {
+                "id": "57",
+                "label": "Please specify, if opted for 'others'",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "58",
+                "label": "Is there a separate shed for the cattle/animal?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+		  		"id":"59",
+		      	"label": "Photo of the cattle shed / cage (poultry bird) with dwelling house.",
+		      	"value":"",
+		      	"qType":"7",
+				"files":[],
+		      	"options": [],
+		      	"required": false
+  			},
+  			{
+                "id": "60",
+                "label": "Are the cattle/animal kept within household premise or outside the premise?",
+                "value": "",
+                "qType": "5",
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Within household premise"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Outside household premise"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "61",
+                "label": "Do you and any animal share same water source(s) for drinking?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "62",
+                "label": "Do you and any animal share same water source(s) for bathing/cleaning?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "63",
+                "label": "Do you and your animals share same water source(s) for cleaning of the excreta?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "64",
+                "label": "Are you involved in periodical vaccination of your cattle?",
+                "value": "",
+                "qType": "3",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+				"dependField":["65"],
+				"onDepend":"1"
+            },
+            {
+                "id": "65",
+                "label": "If 'Yes', you are involved in which vaccination?",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "66",
+                "label": "Have you ever heard about brucellosis vaccine for your cattle?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "67",
+                "label": "Are you involved either in milking or assisting animals to give birth or drink animal urine?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            }
+           
+        ]
+    },
+    {
+        "sid": "5",
+        "section": "Section 5",
+        "secheading": "Handling",
+        "questions": [
+        	{
+                "id": "68",
+                "label": "Did you handle/manage all cattle during last year, those your family own?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "69",
+                "label": "Did you breed any live animal during last year, by yourself?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "70",
+                "label": "Did you assist the veterinary personnel during last year, while animal(s) are required to be breed?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "71",
+                "label": "Did you use any protective equipment during animal breeding process?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "72",
+                "label": "During last year, did any of your livestock come inside the dwelling where you live?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "73",
+                "label": "During last one year, did you notice animal/bird faeces/body-part in or near your food?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "74",
+                "label": "During last year, did you eat food after an animal has touched or damaged it?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "75",
+                "label": "Did you regularly clean animal excreta, during last one year?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "76",
+                "label": "Did you use any protective equipment while handling animal excreta?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "77",
+                "label": "During last year, did you assist the veterinary personnel while any of the animals require medical attention?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "78",
+                "label": "Did you use any protective equipment during medical check-up/procedure?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "79",
+                "label": "During last year, did you assist the veterinary personnel while your animal(s) were vaccinated?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "80",
+                "label": "Did you use any protective equipment during animal vaccination?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "81",
+                "label": "During last year, did you cooked or handles meat, organ or blood from a recently killed animal/poultry bird?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "82",
+                "label": "During last year, did you cook or handle meat, organ or blood from a recently dead animal/poultry bird?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "83",
+                "label": "Did you slaughter any live animal/poultry bird during last year?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "84",
+                "label": "During last year, did you handle skin/fur from a dead animal/bird?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "85",
+                "label": "Were you bitten or scratch by any of your animals/birds (dog/snake/monkey/rodent/cattle/poultry birds), in last one year?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "86",
+                "label": "Did your animals have any history of abortions or reproductive failure?",
+                "value": "",
+                "qType": 3,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Yes"
+                    },
+                    {
+                        "id": "2",
+                        "name": "No"
+                    }
+                ],
+                "required": true
+            },
+            {
+                "id": "87",
+                "label": "What do you do with dead animals?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Burial"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Throw them away"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Distribute among villagers"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Sell the carcass"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Report to closest veterinary office"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Incinerate the carcass"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Consume the meat and dispose the rest"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Skin dead animal"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Others"
+                    }
+                ],
+				"dependField":["88"],
+				"onDepend":"9"
+            },
+            {
+                "id": "88",
+                "label": "If opted for 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+             {
+                "id": "89",
+                "label": "If you bury/ throw away the dead animal body, where do you do the same?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Forest"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Agricultural field"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Barren Land"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Nearby the dwelling house"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Any designated place outside village"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Drainage system"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Flowing water bodies (river/canal)"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Still water bodies (pond/lake)"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Any other"
+                    }
+                ],
+				"dependField":["90"],
+				"onDepend":"9"
+            },
+            {
+                "id": "90",
+                "label": "If opted for 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            },
+            {
+                "id": "91",
+                "label": "If you incinerate the dead animal body, where do you do the same?",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Forest"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Agricultural field"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Barren Land"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Nearby the dwelling house"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Any designated place outside village"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Any other"
+                    }
+                ],
+				"dependField":["92"],
+				"onDepend":"6"
+            },
+            {
+                "id": "92",
+                "label": "If opted for 'Others', please specify",
+                "value": "",
+                "qType": "1"
+            }
+            
+        ]
+    },
+    {
+        "sid": "6",
+        "section": "Section 6",
+        "secheading": "Identification of the respondent",
+        "questions": [
+        	{
+                "id": "93",
+                "label": "Name of the respondent",
+                "value": "",
+                "qType": "1",
+                "required": true
+            },
+             {
+                "id": "94",
+                "label": "Household possessed items",
+                "value": "",
+                "qType": "5",
+                "required": true,
+                "options": [
+                    {
+                        "id": "1",
+                        "name": "Electricity"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Mattress"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Pressure cooker"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Chair/Table"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Iron cot/Bed"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Swing machine"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Watch/Clock"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Water pump"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Electric fan (Table fan or Ceiling fan)"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Radio/transistor"
+                    },
+                    {
+                        "id": "11",
+                        "name": "Television"
+                    },
+                    {
+                        "id": "12",
+                        "name": "Mobile phone"
+                    },
+                    {
+                        "id": "13",
+                        "name": "Landline Telephone"
+                    },
+                    {
+                        "id": "14",
+                        "name": "Broadband internet (except mobile internet)"
+                    },
+                    {
+                        "id": "15",
+                        "name": "Computer (Laptop/Desktop)"
+                    },
+                    {
+                        "id": "16",
+                        "name": "Refrigerator"
+                    },
+                    {
+                        "id": "17",
+                        "name": "Air conditioner/Air Cooler"
+                    },
+                    {
+                        "id": "18",
+                        "name": "Washing machine"
+                    },
+                    {
+                        "id": "19",
+                        "name": "Bicycle"
+                    },
+                    {
+                        "id": "20",
+                        "name": "Animal drawn cart"
+                    },
+                    {
+                        "id": "21",
+                        "name": "Motorcycle/Scooter"
+                    },
+                    {
+                        "id": "22",
+                        "name": "Car/Crop Thresher machine/Tractor"
+                    }
+                ]
+            },
+            {
+                "id": "95",
+                "label": "Sample ID",
+                "value": "",
+                "qType": "1",
+                "required": true
+            }
+        ]
+    }
+]

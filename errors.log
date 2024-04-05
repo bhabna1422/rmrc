@@ -1,0 +1,95 @@
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "user_type" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "fullname" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "phone" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "username" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "password" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 20
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Warning:  Undefined array key "delid" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:50:22 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "user_type" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "fullname" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "phone" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "username" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "password" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 20
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Warning:  Undefined array key "delid" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:50:24 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "user_type" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "fullname" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "phone" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "username" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "password" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 20
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Warning:  Undefined array key "delid" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:50:25 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "user_type" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "fullname" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "phone" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "username" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "password" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 20
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "delid" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 9
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "user_type" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 11
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "fullname" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 12
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "email" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 13
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "phone" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 14
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "username" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 15
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "password" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 16
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "status" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 17
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "stage" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 20
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Warning:  Undefined array key "delid" in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44
+[01-Mar-2024 18:51:01 Asia/Calcutta] PHP Deprecated:  mysqli::real_escape_string(): Passing null to parameter #1 ($string) of type string is deprecated in D:\xampp\htdocs\RMRC-OHPC\mng_user.php on line 44

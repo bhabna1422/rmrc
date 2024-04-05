@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<title>ICMR-Regional Medical Research Centre, Bhubaneswar</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/plugins/datatables/datatables.min.css">
+	<link rel="stylesheet"  href="assets/plugins/select2/css/select2.min.css" />
+	<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" href="assets/css/feather.css">
+	<link rel="stylesheet" href="assets/plugins/datetimepicker/bootstrap-datetimepicker.css">
+	<link rel="stylesheet" href="assets/css/style.css">	
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+<div class="main-wrapper">
+	<div class="header">
+		<div class="header-left">
+			<a href="index.html" class="logo"><img src="assets/img/rmrc-logo.png" alt="Logo"></a>
+			<a href="index.html" class="logo logo-small"><img src="assets/img/logo-small.png" alt="Logo" width="30" height="30"></a>
+			<a href="javascript:void(0);" id="toggle_btn"><i class="feather-chevrons-left"></i></a>
+		</div>
+		<div class="top-nav-search">
+			<div class="main">
+				<h4 class="logotext">ICMR-GCSRMRC (One Health Peri-urban Cohort)</h4>
+			</div>
+		</div>
+		<a class="mobile_btn" id="mobile_btn"><i class="fas fa-bars"></i></a>
+		<ul class="nav nav-tabs user-menu">
+			<li class="nav-item dropdown noti-nav">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">Quick Links</a>
+				<div class="dropdown-menu notifications">					
+					<div class="noti-content">
+						<ul class="notification-list">
+							<li class="notification-message">
+								<a href="#">Link One</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Two</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Three</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Four</a>
+							</li>
+							<li class="notification-message">
+								<a href="#">Link Five</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+
+			<li class="nav-item dropdown main-drop">
+				<a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+					<span class="user-img"><img src="assets/img/patient_profiles/avatar-01.jpg" alt=""><span class="status online"></span></span>
+				</a>
+				<div class="dropdown-menu">
+					<div class="user-header">
+						<div class="avatar avatar-sm">
+							<img src="assets/img/patient_profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+						</div>
+						<div class="user-text">
+							<h6>Kamal Khan</h6>
+							<p class="text-muted mb-0">Administrator</p>
+						</div>
+					</div>				
+					<a class="dropdown-item" href="login.html"><i class="feather-log-out me-1"></i> Logout</a>
+				</div>
+			</li>
+		</ul>
+	</div>	
+
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-inner slimscroll">
+			<div id="sidebar-menu" class="sidebar-menu">
+				<ul>
+					<li><a href="index.html"><i class="feather-grid"></i> <span>Dashboard</span></a></li>
+					<li><a href="datatable.html"><i class="feather-align-justify"></i> <span>Datatable</span></a></li>
+					<li><a href="table.html"><i class="feather-align-justify"></i> <span>Table</span></a></li>
+					<li class="active"><a href="forms.html"><i class="feather-file-text"></i> <span>Forms</span></a></li>
+					<li><a href="components.html"><i class="feather-file-text"></i> <span>Components</span></a></li>
+				</ul>	
+			</div>	
+		</div>	
+	</div>
+
+	<div class="page-wrapper">
+		<div class="content container-fluid">
+			<div class="page-header">
+				<div class="row">
+					<div class="col">
+						<h4 class="card-title">Forms</h4>
+					</div>
+				</div>
+			</div>			
+			<div class="row">
+				<div class="col-sm-12">					
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Form Mask</h5>
+							<p class="card-text">Input masks can be used to force the user to enter data conform a specific format. Unlike validation, the user can't enter any other key than the ones specified by the mask.</p>
+						</div>
+						<div class="card-body">
+							<form action="#">
+								<div class="form-group">
+									<label>Phone</label>
+									<input type="text" class="form-control">
+									<span class="form-text text-muted">(999) 999-9999</span>
+								</div>
+								<div class="form-group">
+									<label>Text Filed</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>Text Filed with Autocomplete</label>
+									<input type="text" class="form-control myAutocomplete">
+								</div>
+								<div class="form-group">
+									<label>Date</label>
+									<input type="text" class="form-control" id='datetimepicker1' >
+								</div>
+								<div class="form-group">
+									<label>Select Option</label>
+									<select  class="form-select">
+										<option>Select Option</option>
+										<option>Option</option>
+										<option>Option</option>
+										<option>Option</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>Select Option with Search</label>									
+									<select class="form-select select_one">
+										<option value="">Select</option>
+										<option value="Father">Father</option>
+										<option value="Mother">Mother</option>
+										<option value="Son">Son</option>
+										<option value="Daughter">Daughter</option>
+										<option value="Spouse">Spouse</option>
+										<option value="Friend">Friend</option>
+										<option value="Relative">Relative</option>
+										<option value="Self">Self</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label>Text area</label>
+									<textarea rows="4" cols="5" class="form-control" placeholder="Enter message"></textarea>
+								</div>
+								<div class="form-group">
+									<label>File Input</label>
+									<input class="form-control" type="file">
+								</div>
+								<div class="form-group">
+									<label>Checkbox</label>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Check">
+										<label class="form-check-label" for="Check">Can't check this</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Check1">
+										<label class="form-check-label" for="Check1">Can't check this</label>
+									</div>
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="Check2">
+										<label class="form-check-label" for="Check2">Can't check this</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Checkbox Inline</label>
+									<div>
+										<div class="form-check form-check-inline">
+											<input type="checkbox" class="form-check-input" name="hobbies" id="checkMusic">
+											<label class="form-check-label" for="checkMusic">Music</label>
+										</div>
+										<div class="form-check form-check-inline ms-3">
+											<input type="checkbox" class="form-check-input" name="hobbies" id="checkTravel" checked>
+											<label class="form-check-label" for="checkTravel">Travel</label>
+										</div>
+										<div class="form-check form-check-inline ms-3">
+											<input type="checkbox" class="form-check-input" name="hobbies" id="checkReading" checked>
+											<label class="form-check-label" for="checkReading">Reading</label>
+										</div>
+									</div>	
+								</div>
+								<div class="form-group">
+									<label>Checkbox</label>
+									<div class="form-check">
+										<input type="radio" class="form-check-input" name="gender" id="radioMale" checked>
+										<label class="form-check-label" for="radioMale">Male</label>
+									</div>
+									<div class="form-check">
+										<input type="radio" class="form-check-input" name="gender" id="radioFemale">
+										<label class="form-check-label" for="radioFemale">Female</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Radio Inline</label>
+									<div>
+										<div class="form-check form-check-inline">
+											<input type="radio" class="form-check-input" name="gender" id="radioMale-inline" checked>
+											<label class="form-check-label" for="radioMale-inline">Male</label>
+										</div>
+										<div class="form-check form-check-inline ms-3">
+											<input type="radio" class="form-check-input" name="gender" id="radioFemale-inline">
+											<label class="form-check-label" for="radioFemale-inline">Female</label>
+										</div>
+									</div>	
+								</div>								
+								<div class="form-group">
+									<label>Input Group</label>
+									<div class="input-group mb-3">
+										<span class="input-group-text" id="basic-addon1">@</span>
+										<input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+										<button class="btn btn-secondary" type="button">Button</button>
+									</div>
+								</div>
+								<h5>Form Inline</h5>
+								<div class="row align-items-center g-3">
+									<div class="col-auto">
+										<label class="col-form-label" for="inputPassword">Password</label>
+									</div>
+									<div class="col-auto">
+										<input type="password" class="form-control" id="inputPassword">
+									</div>
+									<div class="col-auto">
+										<span class="form-text">Must be 8-20 characters long.</span>
+									</div>
+								</div>	
+								<div class="mt-5">
+									<button type="button" class="btn btn-primary">Primary</button>
+									<button type="button" class="btn btn-secondary">Secondary</button>
+									<button type="button" class="btn btn-success">Success</button>
+									<button type="button" class="btn btn-danger">Danger</button>
+									<button type="button" class="btn btn-warning">Warning</button>
+									<button type="button" class="btn btn-info">Info</button>
+									<button type="button" class="btn btn-light">Light</button>
+									<button type="button" class="btn btn-dark">Dark</button>
+									<button type="button" class="btn btn-link">Link</button>	
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>	
+	</div>	
+</div>	
+	
+	
+
+	
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/typeahead.bundle.js"></script>
+<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="assets/plugins/datatables/datatables.min.js"></script>
+<script src="assets/plugins/select2/js/select2.min.js"></script>
+<script src="assets/js/moment.min.js"></script>
+<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="assets/plugins/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.select_one').select2();
+	});
+	
+</script>
+<script>
+$(document).ready(function(){
+    // Sonstructs the suggestion engine
+    var countries = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.whitespace,
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        // The url points to a json file that contains an array of country names
+        prefetch: 'assets/countries.json'
+    });
+    
+    // Initializing the typeahead with remote dataset
+    $('.myAutocomplete').typeahead(null, {
+        name: 'countries',
+        source: countries,
+        limit: 5 /* Specify maximum number of suggestions to be displayed */
+    });
+});  
+</script>
+<script type="text/javascript">
+	$(function () {
+		$('#datetimepicker1').datetimepicker({
+			 format: 'DD-MM-YYYY',
+			 //maxDate: moment().startOf('day')
+		  })/*.on( "dp.change", function() {
+					// Fired when the date is changed.
+					var dt = $("#datetimepicker1").val();
+					var given = moment(dt, "DD/MM/YYYY");
+					var current = moment().startOf('day');
+
+					//Difference in number of days
+					var diff= moment.duration(current.diff(given)).asDays();
+					//alert(diff);
+					
+					var start = moment();
+					var end = moment().add(diff, 'days');
+
+					var years = end.diff(start, 'year');
+					start.add(years, 'years');
+
+					var months = end.diff(start, 'months');
+					start.add(months, 'months');
+
+					var days = end.diff(start, 'days');
+                    
+                    $("#years").val(years);
+                    $("#months").val(months);
+                    $("#days").val(days);
+					console.log(years + ' years ' + months + ' months ' + days + ' days');
+					
+				});    	*/
+	});	
+	
+</script>
+</body>
+</html>
